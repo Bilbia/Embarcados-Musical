@@ -19,6 +19,7 @@
 #include "gfx_mono_text.h"
 #include "sysfont.h"
 #include "notas_freq.h"
+#include "string.h"
 
 
 /************************************************************************/
@@ -29,10 +30,10 @@
 // As frequências das notas foram guardadas no arquivo notas_freq.h
 
 // LED verde da placa
-#define LED_PIO           PIOC                 
-#define LED_PIO_ID        ID_PIOC                   
-#define LED_PIO_IDX       8                   
-#define LED_PIO_IDX_MASK  (1 << LED_PIO_IDX)   
+#define LED_PIO           PIOC
+#define LED_PIO_ID        ID_PIOC
+#define LED_PIO_IDX       8
+#define LED_PIO_IDX_MASK  (1 << LED_PIO_IDX)
 
 // Botão da placa SW300
 #define BUT_PIO			  PIOA
@@ -40,12 +41,12 @@
 #define BUT_PIO_IDX		  11
 #define BUT_PIO_IDX_MASK  (1u << BUT_PIO_IDX)
 
-// Periféricos do OLED1 
+// Periféricos do OLED1
 // LED1
-#define LED1_PIO           PIOA                 
-#define LED1_PIO_ID        ID_PIOA               
-#define LED1_PIO_IDX       0                  
-#define LED1_PIO_IDX_MASK  (1 << LED1_PIO_IDX)  
+#define LED1_PIO           PIOA
+#define LED1_PIO_ID        ID_PIOA
+#define LED1_PIO_IDX       0
+#define LED1_PIO_IDX_MASK  (1 << LED1_PIO_IDX)
 
 // LED2
 #define LED2_PIO           PIOC
@@ -118,6 +119,32 @@ int melody[] = {
 
 
 //fazer o struct aqui
+typedef struct{
+	int *melody;
+	int tempo;
+	char title[13];
+} song;
+
+typedef struct{
+	song songs[3];
+	song curr_song;
+} disc;
+
+
+/************************************************************************/
+/* músicas                                                              */
+/************************************************************************/
+
+
+#include "GoT.h"
+#include "Mii.h"
+#include "Mario.h"
+
+
+
+
+
+
 
 
 /************************************************************************/
@@ -126,7 +153,7 @@ int melody[] = {
 
 
 /************************************************************************/
-/* prototypes                                                           */
+/* declarar funções                                                     */
 /************************************************************************/
 
 
@@ -151,7 +178,7 @@ void tone(int freq, int time) {
 		pio_clear(PIOD, BUZZ_PIO_IDX_MASK);
 		// pausa pelo tempo inserido
 		delay_ms(time);
-	} 
+	}
 	else {
 		char snum[5];
 		itoa(freq, snum, 10);
@@ -186,9 +213,9 @@ void play() {
 		divider = melody[thisNote + 1];
 		if (divider > 0) {
 			noteDuration = (wholenote) / divider;
-		} else if (divider < 0) {
+			} else if (divider < 0) {
 			noteDuration = (wholenote) / abs(divider);
-			noteDuration *= 1.5; 
+			noteDuration *= 1.5;
 		}
 
 		// permite pausar a música entre notas
@@ -208,104 +235,124 @@ void play() {
 					pause = 0;
 				}}}
 
-		// toca a nota
-		tone(melody[thisNote], noteDuration * 0.9);
-		// breve pausa para poder diferenciar entre notas
-		delay_ms(noteDuration*0.1);
-		
-	}
-}
+				// toca a nota
+				tone(melody[thisNote], noteDuration * 0.9);
+				// breve pausa para poder diferenciar entre notas
+				delay_ms(noteDuration*0.1);
+				
+			}
+		}
 
-void init(void)
-{
-	sysclk_init();
-	WDT->WDT_MR = WDT_MR_WDDIS;
-	
-	// abrindo todos os PIOs
-	pmc_enable_periph_clk(ID_PIOA);
-	pmc_enable_periph_clk(ID_PIOB);
-	pmc_enable_periph_clk(ID_PIOC);
-	pmc_enable_periph_clk(ID_PIOD);
-	
-	// configurando but e led da placa
-	pio_set_output(LED_PIO, LED_PIO_IDX_MASK, 0, 0, 0);
-	pio_set_input(BUT_PIO, BUT_PIO_IDX_MASK, PIO_DEFAULT);
-	pio_pull_up(BUT_PIO, BUT_PIO_IDX_MASK, 1);
+		void init(void)
+		{
+			sysclk_init();
+			WDT->WDT_MR = WDT_MR_WDDIS;
+			
+			// abrindo todos os PIOs
+			pmc_enable_periph_clk(ID_PIOA);
+			pmc_enable_periph_clk(ID_PIOB);
+			pmc_enable_periph_clk(ID_PIOC);
+			pmc_enable_periph_clk(ID_PIOD);
+			
+			// configurando but e led da placa
+			pio_set_output(LED_PIO, LED_PIO_IDX_MASK, 0, 0, 0);
+			pio_set_input(BUT_PIO, BUT_PIO_IDX_MASK, PIO_DEFAULT);
+			pio_pull_up(BUT_PIO, BUT_PIO_IDX_MASK, 1);
 
-	// configurando leds da OLED1
-	pio_set_output(LED1_PIO, LED1_PIO_IDX_MASK, 0, 0, 0);
-	pio_set_output(LED2_PIO, LED2_PIO_IDX_MASK, 0, 0, 0);
-	pio_set_output(LED3_PIO, LED3_PIO_IDX_MASK, 0, 0, 0);
-	
-	// configurando buts da OLED1
-	pio_set_input(BUT1_PIO, BUT1_PIO_IDX_MASK, PIO_DEFAULT);
-	pio_pull_up(BUT1_PIO, BUT1_PIO_IDX_MASK, 1);
-	pio_set_input(BUT2_PIO, BUT2_PIO_IDX_MASK, PIO_DEFAULT);
-	pio_pull_up(BUT2_PIO, BUT2_PIO_IDX_MASK, 1);
-	pio_set_input(BUT3_PIO, BUT3_PIO_IDX_MASK, PIO_DEFAULT);
-	pio_pull_up(BUT3_PIO, BUT3_PIO_IDX_MASK, 1);
+			// configurando leds da OLED1
+			pio_set_output(LED1_PIO, LED1_PIO_IDX_MASK, 0, 0, 0);
+			pio_set_output(LED2_PIO, LED2_PIO_IDX_MASK, 0, 0, 0);
+			pio_set_output(LED3_PIO, LED3_PIO_IDX_MASK, 0, 0, 0);
+			
+			// configurando buts da OLED1
+			pio_set_input(BUT1_PIO, BUT1_PIO_IDX_MASK, PIO_DEFAULT);
+			pio_pull_up(BUT1_PIO, BUT1_PIO_IDX_MASK, 1);
+			pio_set_input(BUT2_PIO, BUT2_PIO_IDX_MASK, PIO_DEFAULT);
+			pio_pull_up(BUT2_PIO, BUT2_PIO_IDX_MASK, 1);
+			pio_set_input(BUT3_PIO, BUT3_PIO_IDX_MASK, PIO_DEFAULT);
+			pio_pull_up(BUT3_PIO, BUT3_PIO_IDX_MASK, 1);
 
-	// configurando buzzer
-	pio_set_output(BUZZ_PIO, BUZZ_PIO_IDX_MASK, 0, 0, 0);
-}
+			// configurando buzzer
+			pio_set_output(BUZZ_PIO, BUZZ_PIO_IDX_MASK, 0, 0, 0);
+		}
 
 
-/************************************************************************/
-/* Main                                                                 */
-/************************************************************************/
+		/************************************************************************/
+		/* Main                                                                 */
+		/************************************************************************/
 
-// Funcao principal chamada na inicalizacao do uC.
-int main(void)
-{
-  init();
-	board_init();
-	sysclk_init();
-	delay_init();
-	
-	gfx_mono_ssd1306_init();
-	gfx_mono_draw_string("APS 1", 50,16, &sysfont);
-	delay_ms(1000);
-	
-  while (1){
-	pio_set(PIOC, LED_PIO_IDX_MASK);
-	pio_set(PIOA, LED1_PIO_IDX_MASK);
-	pio_set(PIOC, LED2_PIO_IDX_MASK);
-	pio_set(PIOB, LED3_PIO_IDX_MASK);
-	
-	//-------------------------------------------------------------------------------
-	
-	
-	//-------------------------------------------------------------------------------
-	if (!pio_get(PIOD, PIO_INPUT, BUT1_PIO_IDX_MASK)){
-		gfx_mono_draw_string("BACK    ", 50,16, &sysfont);
-		delay_ms(1000);
-		gfx_mono_draw_string("MUSIC   ", 50,16, &sysfont);                     
-		pio_clear(PIOA, LED1_PIO_IDX_MASK);   
-		delay_ms(1000);		
-	}
+		// Funcao principal chamada na inicalizacao do uC.
+		int main(void)
+		{
+			init();
+			board_init();
+			sysclk_init();
+			delay_init();
+			
+			gfx_mono_ssd1306_init();
+			gfx_mono_draw_string("APS 1", 50,16, &sysfont);
+			delay_ms(1000);
+			
+			song got, mii, mario;
 
-	//-------------------------------------------------------------------------------
-	if (!pio_get(PIOC, PIO_INPUT, BUT2_PIO_IDX_MASK)){
-		pio_clear(PIOC, LED2_PIO_IDX_MASK);
-		gfx_mono_draw_string("PLAY    ", 50,16, &sysfont);
-		delay_ms(1000);
-		gfx_mono_draw_string("MUSIC   ", 50,16, &sysfont);
-		pio_clear(PIOC, LED2_PIO_IDX_MASK);
-		delay_ms(1000);
-		play();
-	}
-	
-	//-------------------------------------------------------------------------------
-	if (!pio_get(PIOA, PIO_INPUT, BUT3_PIO_IDX_MASK)){
-		gfx_mono_draw_string("NEXT    ", 50,16, &sysfont);
-		delay_ms(1000);
-		gfx_mono_draw_string("MUSIC   ", 50,16, &sysfont);
-		pio_clear(PIOB, LED3_PIO_IDX_MASK);   
-		delay_ms(1000);		
-	}
-	
-	
+			strcpy( got.title, got_title);
+			got.tempo = got_tempo;
+			got.melody = &got_melody;
 
-  }
-  return 0;
-}
+			strcpy( mii.title, mii_title);
+			mii.tempo = mii_tempo;
+			mii.melody = &mii_melody;
+
+			strcpy( mario.title, mario_title);
+			mario.tempo = mario_tempo;
+			mario.melody = &mario_melody;
+
+			disc disc1;
+			disc1.songs[0]= got;
+			disc1.songs[1]= mii;
+			disc1.songs[2]= mario;
+			disc1.curr_song = mii;
+			
+			while (1){
+				pio_set(PIOC, LED_PIO_IDX_MASK);
+				pio_set(PIOA, LED1_PIO_IDX_MASK);
+				pio_set(PIOC, LED2_PIO_IDX_MASK);
+				pio_set(PIOB, LED3_PIO_IDX_MASK);
+				
+				//-------------------------------------------------------------------------------
+				
+				
+				//-------------------------------------------------------------------------------
+				if (!pio_get(PIOD, PIO_INPUT, BUT1_PIO_IDX_MASK)){
+					gfx_mono_draw_string("BACK    ", 50,16, &sysfont);
+					delay_ms(1000);
+					gfx_mono_draw_string("MUSIC   ", 50,16, &sysfont);
+					pio_clear(PIOA, LED1_PIO_IDX_MASK);
+					delay_ms(1000);
+				}
+
+				//-------------------------------------------------------------------------------
+				if (!pio_get(PIOC, PIO_INPUT, BUT2_PIO_IDX_MASK)){
+					pio_clear(PIOC, LED2_PIO_IDX_MASK);
+					gfx_mono_draw_string("PLAY    ", 50,16, &sysfont);
+					delay_ms(1000);
+					gfx_mono_draw_string("MUSIC   ", 50,16, &sysfont);
+					pio_clear(PIOC, LED2_PIO_IDX_MASK);
+					delay_ms(1000);
+					play();
+				}
+				
+				//-------------------------------------------------------------------------------
+				if (!pio_get(PIOA, PIO_INPUT, BUT3_PIO_IDX_MASK)){
+					gfx_mono_draw_string("NEXT    ", 50,16, &sysfont);
+					delay_ms(1000);
+					gfx_mono_draw_string("MUSIC   ", 50,16, &sysfont);
+					pio_clear(PIOB, LED3_PIO_IDX_MASK);
+					delay_ms(1000);
+				}
+				
+				
+
+			}
+			return 0;
+		}
