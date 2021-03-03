@@ -161,6 +161,7 @@ void init(void);
 void tone(int freq, int time);
 
 
+
 /************************************************************************/
 /* interrupcoes                                                         */
 /************************************************************************/
@@ -204,14 +205,24 @@ void tone(int freq, int time) {
 	}
 }
 
-void back_song(int cont, disc disc1) {
-	if (contador<=0) {
+void back_song(disc* disc1) {
+	if (contador==0) {
 		contador = CONT_MAX;		
 	} else {
 		contador -= 1;
 	}
-	disc1.curr_song = disc1.songs[contador];
+	disc1->curr_song = disc1->songs[contador];
 }
+
+void next_song(disc* disc1) {
+	if (contador==CONT_MAX) {
+		contador = 0;
+		} else {
+		contador += 1;
+	}
+	disc1->curr_song = disc1->songs[contador];
+}
+
 void play(song curr_song) {
 	// código retirado do repositório onde se encontram as músicas
 	
@@ -303,6 +314,7 @@ void play(song curr_song) {
 			gfx_mono_draw_string("APS 1", 50,16, &sysfont);
 			delay_ms(1000);
 			
+			
 			song got, mii, mario;
 
 			strcpy( got.title, got_title);
@@ -324,7 +336,7 @@ void play(song curr_song) {
 			disc1.curr_song = disc1.songs[contador];
 			
 			while (1){
-				gfx_mono_draw_string(disc1.curr_song.title, 50,16, &sysfont);
+				gfx_mono_draw_string(disc1.curr_song.title, 0,16, &sysfont);
 				pio_set(PIOC, LED_PIO_IDX_MASK);
 				pio_set(PIOA, LED1_PIO_IDX_MASK);
 				pio_set(PIOC, LED2_PIO_IDX_MASK);
@@ -335,10 +347,10 @@ void play(song curr_song) {
 				
 				//-------------------------------------------------------------------------------
 				if (!pio_get(PIOD, PIO_INPUT, BUT1_PIO_IDX_MASK)){
-					back_song(contador,disc1);
-					gfx_mono_draw_string("BACK    ", 50,16, &sysfont);
+					back_song(&disc1);
+					gfx_mono_draw_string("    BACK     ", 0,16, &sysfont);
 					delay_ms(1000);
-					gfx_mono_draw_string("MUSIC   ", 50,16, &sysfont);
+					gfx_mono_draw_string("    MUSIC    ", 0,16, &sysfont);
 					pio_clear(PIOA, LED1_PIO_IDX_MASK);
 					delay_ms(1000);
 				}
@@ -346,9 +358,9 @@ void play(song curr_song) {
 				//-------------------------------------------------------------------------------
 				if (!pio_get(PIOC, PIO_INPUT, BUT2_PIO_IDX_MASK)){
 					pio_clear(PIOC, LED2_PIO_IDX_MASK);
-					gfx_mono_draw_string("PLAY    ", 50,16, &sysfont);
+					gfx_mono_draw_string("    PLAY     ", 0,16, &sysfont);
 					delay_ms(1000);
-					gfx_mono_draw_string("MUSIC   ", 50,16, &sysfont);
+					gfx_mono_draw_string("    MUSIC    ", 0,16, &sysfont);
 					pio_clear(PIOC, LED2_PIO_IDX_MASK);
 					delay_ms(1000);
 					play(disc1.curr_song);
@@ -356,9 +368,10 @@ void play(song curr_song) {
 				
 				//-------------------------------------------------------------------------------
 				if (!pio_get(PIOA, PIO_INPUT, BUT3_PIO_IDX_MASK)){
-					gfx_mono_draw_string("NEXT    ", 50,16, &sysfont);
+					next_song(&disc1);
+					gfx_mono_draw_string("    NEXT     ", 0,16, &sysfont);
 					delay_ms(1000);
-					gfx_mono_draw_string("MUSIC   ", 50,16, &sysfont);
+					gfx_mono_draw_string("    MUSIC    ", 0,16, &sysfont);
 					pio_clear(PIOB, LED3_PIO_IDX_MASK);
 					delay_ms(1000);
 				}

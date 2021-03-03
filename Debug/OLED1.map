@@ -1,23 +1,11 @@
 Archive member included to satisfy reference by file (symbol)
 
-d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-                              src/main.o (__aeabi_i2d)
-d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
-                              src/main.o (__aeabi_dmul)
-d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-                              src/main.o (__aeabi_dcmpeq)
-d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
-                              src/main.o (__aeabi_d2iz)
 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
                               src/main.o (__aeabi_uldivmod)
-d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
-                              src/main.o (__aeabi_d2ulz)
 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
                               d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_dvmd_tls.o)
                               d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
-d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunsdfsi.o)
-                              d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o) (__aeabi_d2uiz)
 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-exit.o)
                               d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o (exit)
 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
@@ -28,6 +16,8 @@ d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-non
                               src/main.o (itoa)
 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
                               d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o (memset)
+d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
+                              src/main.o (strcpy)
 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
                               d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o) (__utoa)
 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
@@ -576,7 +566,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x3f src/ASF/sam/drivers/tc/tc.o
  .debug_macro   0x00000000      0x3ca src/ASF/sam/drivers/tc/tc.o
  .debug_line    0x00000000      0xb4d src/ASF/sam/drivers/tc/tc.o
- .debug_str     0x00000000    0x8228b src/ASF/sam/drivers/tc/tc.o
+ .debug_str     0x00000000    0x8225a src/ASF/sam/drivers/tc/tc.o
  .comment       0x00000000       0x5a src/ASF/sam/drivers/tc/tc.o
  .debug_frame   0x00000000      0x1a8 src/ASF/sam/drivers/tc/tc.o
  .ARM.attributes
@@ -3983,7 +3973,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ca src/ASF/sam/drivers/mpu/mpu.o
  .debug_macro   0x00000000      0x1c8 src/ASF/sam/drivers/mpu/mpu.o
  .debug_line    0x00000000      0xa58 src/ASF/sam/drivers/mpu/mpu.o
- .debug_str     0x00000000    0x82cbe src/ASF/sam/drivers/mpu/mpu.o
+ .debug_str     0x00000000    0x82c8d src/ASF/sam/drivers/mpu/mpu.o
  .comment       0x00000000       0x5a src/ASF/sam/drivers/mpu/mpu.o
  .debug_frame   0x00000000       0x84 src/ASF/sam/drivers/mpu/mpu.o
  .ARM.attributes
@@ -5359,7 +5349,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2c6 src/ASF/sam/drivers/pmc/sleep.o
  .debug_macro   0x00000000      0xa96 src/ASF/sam/drivers/pmc/sleep.o
  .debug_line    0x00000000      0xb14 src/ASF/sam/drivers/pmc/sleep.o
- .debug_str     0x00000000    0x85ef1 src/ASF/sam/drivers/pmc/sleep.o
+ .debug_str     0x00000000    0x85ec0 src/ASF/sam/drivers/pmc/sleep.o
  .comment       0x00000000       0x5a src/ASF/sam/drivers/pmc/sleep.o
  .debug_frame   0x00000000       0x5c src/ASF/sam/drivers/pmc/sleep.o
  .ARM.attributes
@@ -5949,7 +5939,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 src/ASF/sam/utils/syscalls/gcc/syscalls.o
  .debug_macro   0x00000000      0x122 src/ASF/sam/utils/syscalls/gcc/syscalls.o
  .debug_line    0x00000000      0x3d3 src/ASF/sam/utils/syscalls/gcc/syscalls.o
- .debug_str     0x00000000     0x7482 src/ASF/sam/utils/syscalls/gcc/syscalls.o
+ .debug_str     0x00000000     0x7451 src/ASF/sam/utils/syscalls/gcc/syscalls.o
  .comment       0x00000000       0x5a src/ASF/sam/utils/syscalls/gcc/syscalls.o
  .debug_frame   0x00000000       0xa0 src/ASF/sam/utils/syscalls/gcc/syscalls.o
  .ARM.attributes
@@ -6114,13 +6104,22 @@ Discarded input sections
  .group         0x00000000        0x8 src/main.o
  .group         0x00000000        0x8 src/main.o
  .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
  .text          0x00000000        0x0 src/main.o
  .data          0x00000000        0x0 src/main.o
  .bss           0x00000000        0x0 src/main.o
+ .text.tone     0x00000000      0x18c src/main.o
+ .text.play     0x00000000        0xa src/main.o
  .bss.cpu_irq_critical_section_counter
                 0x00000000        0x4 src/main.o
  .bss.cpu_irq_prev_interrupt_state
                 0x00000000        0x1 src/main.o
+ .data.melody   0x00000000      0x368 src/main.o
+ .data.notes    0x00000000        0x4 src/main.o
+ .data.tempo    0x00000000        0x4 src/main.o
+ .rodata.tone.str1.4
+                0x00000000        0xc src/main.o
  .debug_macro   0x00000000      0x8ce src/main.o
  .debug_macro   0x00000000      0x16d src/main.o
  .debug_macro   0x00000000      0x64b src/main.o
@@ -6281,25 +6280,25 @@ Discarded input sections
  .debug_macro   0x00000000       0x7b src/main.o
  .debug_macro   0x00000000       0x8b src/main.o
  .debug_macro   0x00000000       0x3a src/main.o
- .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
- .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
- .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
- .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
- .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
- .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
- .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
- .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
+ .text          0x00000000       0x30 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
  .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
  .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
- .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
- .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
+ .debug_frame   0x00000000       0x2c d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
+ .text          0x00000000      0x2dc d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
  .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
  .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
  .ARM.extab     0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x00000000        0x8 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000000       0x34 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
+ .text          0x00000000        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_dvmd_tls.o)
  .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_dvmd_tls.o)
- .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunsdfsi.o)
- .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-exit.o)
  .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-exit.o)
  .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-exit.o)
@@ -6318,6 +6317,11 @@ Discarded input sections
  .text          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o)
  .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o)
  .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o)
+ .text.__itoa   0x00000000       0x30 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o)
+ .text.itoa     0x00000000        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o)
+ .debug_frame   0x00000000       0x3c d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o)
  .text          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
  .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
  .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
@@ -6325,10 +6329,19 @@ Discarded input sections
  .debug_frame   0x00000000       0x34 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
  .ARM.attributes
                 0x00000000       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
+ .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
  .text          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
  .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
  .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
+ .text.__utoa   0x00000000       0x80 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
  .text.utoa     0x00000000        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
+ .rodata.__utoa.str1.4
+                0x00000000       0x25 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
+ .debug_frame   0x00000000       0x4c d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
  .text          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
  .data          0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
  .bss           0x00000000        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
@@ -6420,7 +6433,7 @@ LOAD d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/ar
                 0x2045fffc                __ram_end__ = ((ORIGIN (ram) + LENGTH (ram)) - 0x4)
                 0x00000200                HEAP_SIZE = DEFINED (HEAP_SIZE)?HEAP_SIZE:0x200
 
-.text           0x00400000     0x2f3c
+.text           0x00400000     0x20f4
                 0x00400000                . = ALIGN (0x4)
                 0x00400000                _sfixed = .
  *(.vectors .vectors.*)
@@ -6645,186 +6658,120 @@ LOAD d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/ar
  .text.system_init_flash
                 0x00400ff4       0x8c src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
                 0x00400ff4                system_init_flash
- .text.tone     0x00401080      0x144 src/main.o
-                0x00401080                tone
- *fill*         0x004011c4        0x4 
- .text.play     0x004011c8      0x154 src/main.o
-                0x004011c8                play
- .text.init     0x0040131c       0xf8 src/main.o
-                0x0040131c                init
- .text.main     0x00401414      0x184 src/main.o
-                0x00401414                main
- .text          0x00401598      0x370 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-                0x00401598                __aeabi_drsub
-                0x004015a0                __aeabi_dsub
-                0x004015a0                __subdf3
-                0x004015a4                __aeabi_dadd
-                0x004015a4                __adddf3
-                0x0040181c                __floatunsidf
-                0x0040181c                __aeabi_ui2d
-                0x0040183c                __floatsidf
-                0x0040183c                __aeabi_i2d
-                0x00401860                __aeabi_f2d
-                0x00401860                __extendsfdf2
-                0x0040189c                __floatundidf
-                0x0040189c                __aeabi_ul2d
-                0x004018ac                __floatdidf
-                0x004018ac                __aeabi_l2d
- .text          0x00401908      0x424 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
-                0x00401908                __aeabi_dmul
-                0x00401908                __muldf3
-                0x00401b5c                __divdf3
-                0x00401b5c                __aeabi_ddiv
- .text          0x00401d2c      0x110 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-                0x00401d2c                __gtdf2
-                0x00401d2c                __gedf2
-                0x00401d34                __ltdf2
-                0x00401d34                __ledf2
-                0x00401d3c                __nedf2
-                0x00401d3c                __eqdf2
-                0x00401d3c                __cmpdf2
-                0x00401db8                __aeabi_cdrcmple
-                0x00401dc8                __aeabi_cdcmpeq
-                0x00401dc8                __aeabi_cdcmple
-                0x00401dd8                __aeabi_dcmpeq
-                0x00401dec                __aeabi_dcmplt
-                0x00401e00                __aeabi_dcmple
-                0x00401e14                __aeabi_dcmpge
-                0x00401e28                __aeabi_dcmpgt
- .text          0x00401e3c       0x50 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
-                0x00401e3c                __aeabi_d2iz
-                0x00401e3c                __fixdfsi
- .text          0x00401e8c       0x30 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
-                0x00401e8c                __aeabi_uldivmod
- .text          0x00401ebc       0x48 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
-                0x00401ebc                __fixunsdfdi
-                0x00401ebc                __aeabi_d2ulz
- .text          0x00401f04      0x2dc d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
-                0x00401f04                __udivmoddi4
- .text          0x004021e0        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_dvmd_tls.o)
-                0x004021e0                __aeabi_idiv0
-                0x004021e0                __aeabi_ldiv0
- .text          0x004021e4       0x40 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunsdfsi.o)
-                0x004021e4                __aeabi_d2uiz
-                0x004021e4                __fixunsdfsi
+ .text.back_song
+                0x00401080       0x3c src/main.o
+                0x00401080                back_song
+ .text.next_song
+                0x004010bc       0x3c src/main.o
+                0x004010bc                next_song
+ .text.init     0x004010f8       0xf8 src/main.o
+                0x004010f8                init
+ .text.main     0x004011f0      0x220 src/main.o
+                0x004011f0                main
  .text.__libc_init_array
-                0x00402224       0x50 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-init.o)
-                0x00402224                __libc_init_array
- .text.__itoa   0x00402274       0x30 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o)
-                0x00402274                __itoa
- .text.itoa     0x004022a4        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o)
-                0x004022a4                itoa
- .text.__utoa   0x004022a8       0x80 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
-                0x004022a8                __utoa
+                0x00401410       0x50 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-init.o)
+                0x00401410                __libc_init_array
+ .text.strcpy   0x00401460       0xbc d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
+                0x00401460                strcpy
  .text.startup.register_fini
-                0x00402328       0x14 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
- .text.atexit   0x0040233c        0xc d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-atexit.o)
-                0x0040233c                atexit
+                0x0040151c       0x14 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x00401530        0xc d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-atexit.o)
+                0x00401530                atexit
  .text.__libc_fini_array
-                0x00402348       0x34 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-fini.o)
-                0x00402348                __libc_fini_array
+                0x0040153c       0x34 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-fini.o)
+                0x0040153c                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x0040237c        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
-                0x0040237c                __retarget_lock_acquire_recursive
+                0x00401570        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
+                0x00401570                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x00402380        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
-                0x00402380                __retarget_lock_release_recursive
+                0x00401574        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
+                0x00401574                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x00402384       0xc4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__atexit.o)
-                0x00402384                __register_exitproc
+                0x00401578       0xc4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__atexit.o)
+                0x00401578                __register_exitproc
  *(.glue_7t)
- .glue_7t       0x00402448        0x0 linker stubs
+ .glue_7t       0x0040163c        0x0 linker stubs
  *(.glue_7)
- .glue_7        0x00402448        0x0 linker stubs
+ .glue_7        0x0040163c        0x0 linker stubs
  *(.rodata .rodata* .gnu.linkonce.r.*)
  .rodata.sysfont_glyphs
-                0x00402448      0xa48 src/oled/sysfont.o
+                0x0040163c      0xa48 src/oled/sysfont.o
  .rodata.main.str1.4
-                0x00402e90       0x39 src/main.o
- *fill*         0x00402ec9        0x3 
- .rodata.play.str1.4
-                0x00402ecc        0x9 src/main.o
- *fill*         0x00402ed5        0x3 
- .rodata.tone.str1.4
-                0x00402ed8       0x12 src/main.o
- *fill*         0x00402eea        0x2 
+                0x00402084       0x48 src/main.o
+                                 0x46 (size before relaxing)
  .rodata._global_impure_ptr
-                0x00402eec        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
-                0x00402eec                _global_impure_ptr
- .rodata.__utoa.str1.4
-                0x00402ef0       0x28 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
-                                 0x25 (size before relaxing)
+                0x004020cc        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
+                0x004020cc                _global_impure_ptr
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00402f18                . = ALIGN (0x4)
+                0x004020d0                . = ALIGN (0x4)
  *(.init)
- .init          0x00402f18        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
-                0x00402f18                _init
- .init          0x00402f1c        0x8 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
-                0x00402f24                . = ALIGN (0x4)
-                0x00402f24                __preinit_array_start = .
+ .init          0x004020d0        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
+                0x004020d0                _init
+ .init          0x004020d4        0x8 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+                0x004020dc                . = ALIGN (0x4)
+                0x004020dc                __preinit_array_start = .
  *(.preinit_array)
-                0x00402f24                __preinit_array_end = .
-                0x00402f24                . = ALIGN (0x4)
-                0x00402f24                __init_array_start = .
+                0x004020dc                __preinit_array_end = .
+                0x004020dc                . = ALIGN (0x4)
+                0x004020dc                __init_array_start = .
  *(SORT(.init_array.*))
  .init_array.00000
-                0x00402f24        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
+                0x004020dc        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
  *(.init_array)
- .init_array    0x00402f28        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-                0x00402f2c                __init_array_end = .
-                0x00402f2c                . = ALIGN (0x4)
+ .init_array    0x004020e0        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+                0x004020e4                __init_array_end = .
+                0x004020e4                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x00402f2c                . = ALIGN (0x4)
+                0x004020e4                . = ALIGN (0x4)
  *(.fini)
- .fini          0x00402f2c        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
-                0x00402f2c                _fini
- .fini          0x00402f30        0x8 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
-                0x00402f38                . = ALIGN (0x4)
-                0x00402f38                __fini_array_start = .
+ .fini          0x004020e4        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
+                0x004020e4                _fini
+ .fini          0x004020e8        0x8 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+                0x004020f0                . = ALIGN (0x4)
+                0x004020f0                __fini_array_start = .
  *(.fini_array)
- .fini_array    0x00402f38        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+ .fini_array    0x004020f0        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
  *(SORT(.fini_array.*))
-                0x00402f3c                __fini_array_end = .
+                0x004020f4                __fini_array_end = .
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x00402f3c                . = ALIGN (0x4)
-                0x00402f3c                _efixed = .
+                0x004020f4                . = ALIGN (0x4)
+                0x004020f4                _efixed = .
                 [!provide]                PROVIDE (__exidx_start, .)
 
-.vfp11_veneer   0x00402f3c        0x0
- .vfp11_veneer  0x00402f3c        0x0 linker stubs
+.vfp11_veneer   0x004020f4        0x0
+ .vfp11_veneer  0x004020f4        0x0 linker stubs
 
-.v4_bx          0x00402f3c        0x0
- .v4_bx         0x00402f3c        0x0 linker stubs
+.v4_bx          0x004020f4        0x0
+ .v4_bx         0x004020f4        0x0 linker stubs
 
-.iplt           0x00402f3c        0x0
- .iplt          0x00402f3c        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+.iplt           0x004020f4        0x0
+ .iplt          0x004020f4        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
 
-.ARM.exidx      0x00402f3c        0x8
+.eh_frame       0x004020f4        0x0
+ .eh_frame      0x004020f4        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+
+.rel.dyn        0x004020f4        0x0
+ .rel.iplt      0x004020f4        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+
+.jcr            0x004020f4        0x0
+ .jcr           0x004020f4        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+
+.igot.plt       0x004020f4        0x0
+ .igot.plt      0x004020f4        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+
+.ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x00402f3c        0x8 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
                 [!provide]                PROVIDE (__exidx_end, .)
+                0x004020f4                . = ALIGN (0x4)
+                0x004020f4                _etext = .
 
-.eh_frame       0x00402f44        0x0
- .eh_frame      0x00402f44        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-
-.rel.dyn        0x00402f44        0x0
- .rel.iplt      0x00402f44        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-
-.jcr            0x00402f44        0x0
- .jcr           0x00402f44        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-
-.igot.plt       0x00402f44        0x0
- .igot.plt      0x00402f44        0x0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-                0x00402f44                . = ALIGN (0x4)
-                0x00402f44                _etext = .
-
-.relocate       0x20400000      0x7bc load address 0x00402f44
+.relocate       0x20400000     0x1b94 load address 0x004020f4
                 0x20400000                . = ALIGN (0x4)
                 0x20400000                _srelocate = .
  *(.ramfunc .ramfunc.*)
@@ -6841,64 +6788,92 @@ LOAD d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/ar
  .data.SystemCoreClock
                 0x2040001c        0x4 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
                 0x2040001c                SystemCoreClock
- .data.melody   0x20400020      0x368 src/main.o
-                0x20400020                melody
- .data.tempo    0x20400388        0x4 src/main.o
-                0x20400388                tempo
- *fill*         0x2040038c        0x4 
+ .data.contador
+                0x20400020        0x4 src/main.o
+                0x20400020                contador
+ .data.got_melody
+                0x20400024      0x410 src/main.o
+                0x20400024                got_melody
+ .data.got_tempo
+                0x20400434        0x4 src/main.o
+                0x20400434                got_tempo
+ .data.got_title
+                0x20400438        0xd src/main.o
+                0x20400438                got_title
+ *fill*         0x20400445        0x3 
+ .data.mario_melody
+                0x20400448      0xa08 src/main.o
+                0x20400448                mario_melody
+ .data.mario_tempo
+                0x20400e50        0x4 src/main.o
+                0x20400e50                mario_tempo
+ .data.mario_title
+                0x20400e54        0xd src/main.o
+                0x20400e54                mario_title
+ *fill*         0x20400e61        0x3 
+ .data.mii_melody
+                0x20400e64      0x8f0 src/main.o
+                0x20400e64                mii_melody
+ .data.mii_tempo
+                0x20401754        0x4 src/main.o
+                0x20401754                mii_tempo
+ .data.mii_title
+                0x20401758        0xd src/main.o
+                0x20401758                mii_title
+ *fill*         0x20401765        0x3 
  .data.impure_data
-                0x20400390      0x428 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
+                0x20401768      0x428 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
  .data.__atexit_recursive_mutex
-                0x204007b8        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
-                0x204007b8                __atexit_recursive_mutex
-                0x204007bc                . = ALIGN (0x4)
-                0x204007bc                _erelocate = .
+                0x20401b90        0x4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
+                0x20401b90                __atexit_recursive_mutex
+                0x20401b94                . = ALIGN (0x4)
+                0x20401b94                _erelocate = .
 
-.bss            0x204007bc      0x2b4 load address 0x00403700
-                0x204007bc                . = ALIGN (0x4)
-                0x204007bc                _sbss = .
-                0x204007bc                _szero = .
+.bss            0x20401b94      0x2b4 load address 0x00403c88
+                0x20401b94                . = ALIGN (0x4)
+                0x20401b94                _sbss = .
+                0x20401b94                _szero = .
  *(.bss .bss.*)
- .bss           0x204007bc       0x1c d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+ .bss           0x20401b94       0x1c d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
  .bss.fbpointer
-                0x204007d8        0x4 src/oled/gfx_mono_framebuffer.o
+                0x20401bb0        0x4 src/oled/gfx_mono_framebuffer.o
  .bss.framebuffer
-                0x204007dc      0x200 src/oled/gfx_mono_ug_2832hsweg04.o
+                0x20401bb4      0x200 src/oled/gfx_mono_ug_2832hsweg04.o
  .bss.gs_interrupt_sources
-                0x204009dc       0x70 src/ASF/sam/drivers/pio/pio_handler.o
+                0x20401db4       0x70 src/ASF/sam/drivers/pio/pio_handler.o
  *(COMMON)
- COMMON         0x20400a4c       0x21 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
-                0x20400a4c                __lock___atexit_recursive_mutex
-                0x20400a50                __lock___arc4random_mutex
-                0x20400a54                __lock___env_recursive_mutex
-                0x20400a58                __lock___sinit_recursive_mutex
-                0x20400a5c                __lock___malloc_recursive_mutex
-                0x20400a60                __lock___at_quick_exit_mutex
-                0x20400a64                __lock___dd_hash_mutex
-                0x20400a68                __lock___tz_mutex
-                0x20400a6c                __lock___sfp_recursive_mutex
-                0x20400a70                . = ALIGN (0x4)
- *fill*         0x20400a6d        0x3 
-                0x20400a70                _ebss = .
-                0x20400a70                _ezero = .
+ COMMON         0x20401e24       0x21 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
+                0x20401e24                __lock___atexit_recursive_mutex
+                0x20401e28                __lock___arc4random_mutex
+                0x20401e2c                __lock___env_recursive_mutex
+                0x20401e30                __lock___sinit_recursive_mutex
+                0x20401e34                __lock___malloc_recursive_mutex
+                0x20401e38                __lock___at_quick_exit_mutex
+                0x20401e3c                __lock___dd_hash_mutex
+                0x20401e40                __lock___tz_mutex
+                0x20401e44                __lock___sfp_recursive_mutex
+                0x20401e48                . = ALIGN (0x4)
+ *fill*         0x20401e45        0x3 
+                0x20401e48                _ebss = .
+                0x20401e48                _ezero = .
 
-.stack          0x20400a70     0x2000 load address 0x004039b4
-                0x20400a70                . = ALIGN (0x8)
-                0x20400a70                _sstack = .
-                0x20402a70                . = (. + STACK_SIZE)
- *fill*         0x20400a70     0x2000 
-                0x20402a70                . = ALIGN (0x8)
-                0x20402a70                _estack = .
+.stack          0x20401e48     0x2000 load address 0x00403f3c
+                0x20401e48                . = ALIGN (0x8)
+                0x20401e48                _sstack = .
+                0x20403e48                . = (. + STACK_SIZE)
+ *fill*         0x20401e48     0x2000 
+                0x20403e48                . = ALIGN (0x8)
+                0x20403e48                _estack = .
 
-.heap           0x20402a70      0x200 load address 0x004059b4
-                0x20402a70                . = ALIGN (0x8)
-                0x20402a70                _sheap = .
-                0x20402c70                . = (. + HEAP_SIZE)
- *fill*         0x20402a70      0x200 
-                0x20402c70                . = ALIGN (0x8)
-                0x20402c70                _eheap = .
-                0x20402c70                . = ALIGN (0x4)
-                0x20402c70                _end = .
+.heap           0x20403e48      0x200 load address 0x00405f3c
+                0x20403e48                . = ALIGN (0x8)
+                0x20403e48                _sheap = .
+                0x20404048                . = (. + HEAP_SIZE)
+ *fill*         0x20403e48      0x200 
+                0x20404048                . = ALIGN (0x8)
+                0x20404048                _eheap = .
+                0x20404048                . = ALIGN (0x4)
+                0x20404048                _end = .
                 0x2045ffff                _ram_end_ = ((ORIGIN (ram) + LENGTH (ram)) - 0x1)
 OUTPUT(OLED1.elf elf32-littlearm)
 
@@ -6943,43 +6918,23 @@ OUTPUT(OLED1.elf elf32-littlearm)
  .ARM.attributes
                 0x000003bc       0x37 src/main.o
  .ARM.attributes
-                0x000003f3       0x1e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
+                0x000003f3       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000411       0x1e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
+                0x00000421       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-init.o)
  .ARM.attributes
-                0x0000042f       0x1e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
+                0x0000044f       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
  .ARM.attributes
-                0x0000044d       0x1e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
+                0x0000047d       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x0000046b       0x1e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
+                0x000004ab       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-atexit.o)
  .ARM.attributes
-                0x00000489       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
+                0x000004d9       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-fini.o)
  .ARM.attributes
-                0x000004b7       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
+                0x00000507       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
  .ARM.attributes
-                0x000004e5       0x1e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_dvmd_tls.o)
+                0x00000535       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__atexit.o)
  .ARM.attributes
-                0x00000503       0x1e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunsdfsi.o)
- .ARM.attributes
-                0x00000521       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
- .ARM.attributes
-                0x0000054f       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-init.o)
- .ARM.attributes
-                0x0000057d       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o)
- .ARM.attributes
-                0x000005ab       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
- .ARM.attributes
-                0x000005d9       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
- .ARM.attributes
-                0x00000607       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-atexit.o)
- .ARM.attributes
-                0x00000635       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-fini.o)
- .ARM.attributes
-                0x00000663       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
- .ARM.attributes
-                0x00000691       0x2e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__atexit.o)
- .ARM.attributes
-                0x000006bf       0x1e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+                0x00000563       0x1e d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
 
 .comment        0x00000000       0x59
  .comment       0x00000000       0x59 src/ASF/sam/drivers/spi/spi.o
@@ -7001,7 +6956,7 @@ OUTPUT(OLED1.elf elf32-littlearm)
  .comment       0x00000059       0x5a src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
  .comment       0x00000059       0x5a src/main.o
 
-.debug_info     0x00000000    0x153aa
+.debug_info     0x00000000    0x15649
  .debug_info    0x00000000     0x115d src/ASF/sam/drivers/spi/spi.o
  .debug_info    0x0000115d      0xdd2 src/oled/gfx_mono_framebuffer.o
  .debug_info    0x00001f2f     0x157d src/oled/gfx_mono_generic.o
@@ -7018,9 +6973,9 @@ OUTPUT(OLED1.elf elf32-littlearm)
  .debug_info    0x00010060     0x1e0e src/ASF/sam/drivers/pmc/pmc.o
  .debug_info    0x00011e6e     0x156a src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
  .debug_info    0x000133d8      0x55b src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
- .debug_info    0x00013933     0x1a77 src/main.o
+ .debug_info    0x00013933     0x1d16 src/main.o
 
-.debug_abbrev   0x00000000     0x3039
+.debug_abbrev   0x00000000     0x3075
  .debug_abbrev  0x00000000      0x3a5 src/ASF/sam/drivers/spi/spi.o
  .debug_abbrev  0x000003a5      0x284 src/oled/gfx_mono_framebuffer.o
  .debug_abbrev  0x00000629      0x2a2 src/oled/gfx_mono_generic.o
@@ -7037,9 +6992,9 @@ OUTPUT(OLED1.elf elf32-littlearm)
  .debug_abbrev  0x000025bf      0x369 src/ASF/sam/drivers/pmc/pmc.o
  .debug_abbrev  0x00002928      0x2e4 src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
  .debug_abbrev  0x00002c0c      0x102 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
- .debug_abbrev  0x00002d0e      0x32b src/main.o
+ .debug_abbrev  0x00002d0e      0x367 src/main.o
 
-.debug_loc      0x00000000     0x509b
+.debug_loc      0x00000000     0x514a
  .debug_loc     0x00000000      0x610 src/ASF/sam/drivers/spi/spi.o
  .debug_loc     0x00000610      0x506 src/oled/gfx_mono_framebuffer.o
  .debug_loc     0x00000b16      0xda8 src/oled/gfx_mono_generic.o
@@ -7052,9 +7007,9 @@ OUTPUT(OLED1.elf elf32-littlearm)
  .debug_loc     0x00003b89      0x588 src/ASF/sam/drivers/pio/pio_handler.o
  .debug_loc     0x00004111      0xce3 src/ASF/sam/drivers/pmc/pmc.o
  .debug_loc     0x00004df4       0x77 src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
- .debug_loc     0x00004e6b      0x230 src/main.o
+ .debug_loc     0x00004e6b      0x2df src/main.o
 
-.debug_aranges  0x00000000      0x7b8
+.debug_aranges  0x00000000      0x7c8
  .debug_aranges
                 0x00000000       0x90 src/ASF/sam/drivers/spi/spi.o
  .debug_aranges
@@ -7088,9 +7043,9 @@ OUTPUT(OLED1.elf elf32-littlearm)
  .debug_aranges
                 0x00000750       0x30 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
  .debug_aranges
-                0x00000780       0x38 src/main.o
+                0x00000780       0x48 src/main.o
 
-.debug_ranges   0x00000000      0x808
+.debug_ranges   0x00000000      0x830
  .debug_ranges  0x00000000       0x80 src/ASF/sam/drivers/spi/spi.o
  .debug_ranges  0x00000080       0x48 src/oled/gfx_mono_framebuffer.o
  .debug_ranges  0x000000c8       0x48 src/oled/gfx_mono_generic.o
@@ -7106,9 +7061,9 @@ OUTPUT(OLED1.elf elf32-littlearm)
  .debug_ranges  0x00000568      0x240 src/ASF/sam/drivers/pmc/pmc.o
  .debug_ranges  0x000007a8       0x18 src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
  .debug_ranges  0x000007c0       0x20 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
- .debug_ranges  0x000007e0       0x28 src/main.o
+ .debug_ranges  0x000007e0       0x50 src/main.o
 
-.debug_macro    0x00000000    0x206bd
+.debug_macro    0x00000000    0x206fe
  .debug_macro   0x00000000      0x6d9 src/ASF/sam/drivers/spi/spi.o
  .debug_macro   0x000006d9      0x8ce src/ASF/sam/drivers/spi/spi.o
  .debug_macro   0x00000fa7      0x16d src/ASF/sam/drivers/spi/spi.o
@@ -7294,9 +7249,11 @@ OUTPUT(OLED1.elf elf32-littlearm)
  .debug_macro   0x0001f0e1      0x664 src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
  .debug_macro   0x0001f745       0x10 src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
  .debug_macro   0x0001f755      0x455 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
- .debug_macro   0x0001fbaa      0xb13 src/main.o
+ .debug_macro   0x0001fbaa      0x91e src/main.o
+ .debug_macro   0x000204c8      0x220 src/main.o
+ .debug_macro   0x000206e8       0x16 src/main.o
 
-.debug_line     0x00000000     0xd11c
+.debug_line     0x00000000     0xd1ab
  .debug_line    0x00000000      0xc09 src/ASF/sam/drivers/spi/spi.o
  .debug_line    0x00000c09      0xe07 src/oled/gfx_mono_framebuffer.o
  .debug_line    0x00001a10      0xebb src/oled/gfx_mono_generic.o
@@ -7313,45 +7270,45 @@ OUTPUT(OLED1.elf elf32-littlearm)
  .debug_line    0x0000a0c9     0x1033 src/ASF/sam/drivers/pmc/pmc.o
  .debug_line    0x0000b0fc      0xa3b src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
  .debug_line    0x0000bb37      0x7b1 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
- .debug_line    0x0000c2e8      0xe34 src/main.o
+ .debug_line    0x0000c2e8      0xec3 src/main.o
 
-.debug_str      0x00000000    0x8fdcc
- .debug_str     0x00000000    0x85e85 src/ASF/sam/drivers/spi/spi.o
-                              0x86542 (size before relaxing)
- .debug_str     0x00085e85     0x2ad2 src/oled/gfx_mono_framebuffer.o
-                              0x88c1e (size before relaxing)
- .debug_str     0x00088957      0x25c src/oled/gfx_mono_generic.o
-                              0x88d62 (size before relaxing)
- .debug_str     0x00088bb3      0x266 src/oled/gfx_mono_text.o
-                              0x88d3d (size before relaxing)
- .debug_str     0x00088e19      0x11c src/oled/gfx_mono_ug_2832hsweg04.o
-                              0x88cfe (size before relaxing)
- .debug_str     0x00088f35      0x612 src/oled/ssd1306.o
-                              0x88936 (size before relaxing)
- .debug_str     0x00089547     0x3ee1 src/oled/sysfont.o
-                              0x86174 (size before relaxing)
- .debug_str     0x0008d428       0x35 src/ASF/common/services/delay/sam/cycle_counter.o
-                              0x820a8 (size before relaxing)
- .debug_str     0x0008d45d      0x3f1 src/ASF/common/services/clock/same70/sysclk.o
-                              0x865c6 (size before relaxing)
- .debug_str     0x0008d84e       0x94 src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
-                              0x81f78 (size before relaxing)
- .debug_str     0x0008d8e2      0x4f4 src/ASF/sam/boards/same70_xplained/init.o
-                              0x870b6 (size before relaxing)
- .debug_str     0x0008ddd6      0x57b src/ASF/sam/drivers/pio/pio.o
-                              0x82ace (size before relaxing)
- .debug_str     0x0008e351      0x437 src/ASF/sam/drivers/pio/pio_handler.o
-                              0x82bf0 (size before relaxing)
- .debug_str     0x0008e788      0x699 src/ASF/sam/drivers/pmc/pmc.o
-                              0x82c32 (size before relaxing)
- .debug_str     0x0008ee21      0x64c src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
-                              0x82745 (size before relaxing)
- .debug_str     0x0008f46d      0x137 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
-                              0x72851 (size before relaxing)
- .debug_str     0x0008f5a4      0x828 src/main.o
-                              0x8d5b3 (size before relaxing)
+.debug_str      0x00000000    0x8fe09
+ .debug_str     0x00000000    0x85e54 src/ASF/sam/drivers/spi/spi.o
+                              0x86511 (size before relaxing)
+ .debug_str     0x00085e54     0x2ad2 src/oled/gfx_mono_framebuffer.o
+                              0x88bed (size before relaxing)
+ .debug_str     0x00088926      0x25c src/oled/gfx_mono_generic.o
+                              0x88d31 (size before relaxing)
+ .debug_str     0x00088b82      0x266 src/oled/gfx_mono_text.o
+                              0x88d0c (size before relaxing)
+ .debug_str     0x00088de8      0x11c src/oled/gfx_mono_ug_2832hsweg04.o
+                              0x88ccd (size before relaxing)
+ .debug_str     0x00088f04      0x612 src/oled/ssd1306.o
+                              0x88905 (size before relaxing)
+ .debug_str     0x00089516     0x3ee1 src/oled/sysfont.o
+                              0x86143 (size before relaxing)
+ .debug_str     0x0008d3f7       0x35 src/ASF/common/services/delay/sam/cycle_counter.o
+                              0x82077 (size before relaxing)
+ .debug_str     0x0008d42c      0x3f1 src/ASF/common/services/clock/same70/sysclk.o
+                              0x86595 (size before relaxing)
+ .debug_str     0x0008d81d       0x94 src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
+                              0x81f47 (size before relaxing)
+ .debug_str     0x0008d8b1      0x4f4 src/ASF/sam/boards/same70_xplained/init.o
+                              0x87085 (size before relaxing)
+ .debug_str     0x0008dda5      0x57b src/ASF/sam/drivers/pio/pio.o
+                              0x82a9d (size before relaxing)
+ .debug_str     0x0008e320      0x437 src/ASF/sam/drivers/pio/pio_handler.o
+                              0x82bbf (size before relaxing)
+ .debug_str     0x0008e757      0x699 src/ASF/sam/drivers/pmc/pmc.o
+                              0x82c01 (size before relaxing)
+ .debug_str     0x0008edf0      0x64c src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
+                              0x82714 (size before relaxing)
+ .debug_str     0x0008f43c      0x137 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
+                              0x72820 (size before relaxing)
+ .debug_str     0x0008f573      0x896 src/main.o
+                              0x8d67d (size before relaxing)
 
-.debug_frame    0x00000000     0x1618
+.debug_frame    0x00000000     0x1350
  .debug_frame   0x00000000      0x140 src/ASF/sam/drivers/spi/spi.o
  .debug_frame   0x00000140       0xdc src/oled/gfx_mono_framebuffer.o
  .debug_frame   0x0000021c      0x168 src/oled/gfx_mono_generic.o
@@ -7367,23 +7324,14 @@ OUTPUT(OLED1.elf elf32-littlearm)
  .debug_frame   0x00000b84      0x494 src/ASF/sam/drivers/pmc/pmc.o
  .debug_frame   0x00001018       0x38 src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
  .debug_frame   0x00001050       0x40 src/ASF/sam/utils/cmsis/same70/source/templates/system_same70.o
- .debug_frame   0x00001090       0xac src/main.o
- .debug_frame   0x0000113c       0xac d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x000011e8       0x50 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x00001238       0xc4 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x000012fc       0x24 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x00001320       0x2c d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000134c       0x2c d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
- .debug_frame   0x00001378       0x34 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x000013ac       0x24 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunsdfsi.o)
- .debug_frame   0x000013d0       0x2c d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-init.o)
- .debug_frame   0x000013fc       0x3c d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o)
- .debug_frame   0x00001438       0x4c d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
- .debug_frame   0x00001484       0x5c d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
- .debug_frame   0x000014e0       0x20 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-atexit.o)
- .debug_frame   0x00001500       0x34 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-fini.o)
- .debug_frame   0x00001534       0xb0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
- .debug_frame   0x000015e4       0x34 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x00001090       0xe0 src/main.o
+ .debug_frame   0x00001170       0x2c d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-init.o)
+ .debug_frame   0x0000119c       0x20 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
+ .debug_frame   0x000011bc       0x5c d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00001218       0x20 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-atexit.o)
+ .debug_frame   0x00001238       0x34 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-fini.o)
+ .debug_frame   0x0000126c       0xb0 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
+ .debug_frame   0x0000131c       0x34 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__atexit.o)
 
 Cross Reference Table
 
@@ -7461,40 +7409,9 @@ UsageFault_Handler                                src/ASF/sam/utils/cmsis/same70
 WDT_Handler                                       src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
 XDMAC_Handler                                     src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
 _Jv_RegisterClasses                               d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-__adddf3                                          d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-__aeabi_cdcmpeq                                   d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-__aeabi_cdcmple                                   d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-__aeabi_cdrcmple                                  d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-__aeabi_d2iz                                      d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
-                                                  src/main.o
-__aeabi_d2uiz                                     d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunsdfsi.o)
-                                                  d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
-__aeabi_d2ulz                                     d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
-                                                  src/main.o
-__aeabi_dadd                                      d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-__aeabi_dcmpeq                                    d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-                                                  src/main.o
-__aeabi_dcmpge                                    d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-__aeabi_dcmpgt                                    d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-__aeabi_dcmple                                    d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-__aeabi_dcmplt                                    d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-__aeabi_ddiv                                      d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
-__aeabi_dmul                                      d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
-                                                  d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
-                                                  src/main.o
-__aeabi_drsub                                     d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-__aeabi_dsub                                      d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-                                                  d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
-__aeabi_f2d                                       d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-__aeabi_i2d                                       d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-                                                  src/main.o
 __aeabi_idiv0                                     d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_dvmd_tls.o)
-__aeabi_l2d                                       d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
 __aeabi_ldiv0                                     d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_dvmd_tls.o)
                                                   d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
-__aeabi_ui2d                                      d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-                                                  d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
-__aeabi_ul2d                                      d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
 __aeabi_uldivmod                                  d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
                                                   src/main.o
 __atexit_recursive_mutex                          d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
@@ -7503,27 +7420,13 @@ __bss_end__                                       d:/microship studio 7/7.0/tool
 __bss_start__                                     d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
 __call_exitprocs                                  d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
                                                   d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-exit.o)
-__cmpdf2                                          d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
 __deregister_frame_info                           d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-__divdf3                                          d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
 __dso_handle                                      d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-__eqdf2                                           d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-__extendsfdf2                                     d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
 __fini_array_end                                  d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-fini.o)
 __fini_array_start                                d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-fini.o)
-__fixdfsi                                         d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixdfsi.o)
-__fixunsdfdi                                      d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_fixunsdfdi.o)
-__fixunsdfsi                                      d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_fixunsdfsi.o)
-__floatdidf                                       d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-__floatsidf                                       d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-__floatundidf                                     d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-__floatunsidf                                     d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
-__gedf2                                           d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-__gtdf2                                           d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
 __init_array_end                                  d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-init.o)
 __init_array_start                                d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-init.o)
 __itoa                                            d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o)
-__ledf2                                           d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
 __libc_fini                                       d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
 __libc_fini_array                                 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-fini.o)
                                                   d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
@@ -7541,9 +7444,6 @@ __lock___malloc_recursive_mutex                   d:/microship studio 7/7.0/tool
 __lock___sfp_recursive_mutex                      d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
 __lock___sinit_recursive_mutex                    d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
 __lock___tz_mutex                                 d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
-__ltdf2                                           d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
-__muldf3                                          d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_muldivdf3.o)
-__nedf2                                           d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_cmpdf2.o)
 __preinit_array_end                               d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-init.o)
 __preinit_array_start                             d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-init.o)
 __ram_end__                                       src/ASF/sam/utils/syscalls/gcc/syscalls.o
@@ -7565,7 +7465,6 @@ __retarget_lock_release_recursive                 d:/microship studio 7/7.0/tool
 __retarget_lock_try_acquire                       d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
 __retarget_lock_try_acquire_recursive             d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-lock.o)
 __stack                                           d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
-__subdf3                                          d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_arm_addsubdf3.o)
 __udivmoddi4                                      d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_udivmoddi4.o)
                                                   d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a(_aeabi_uldivmod.o)
 __utoa                                            d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-utoa.o)
@@ -7601,8 +7500,10 @@ _szero                                            src/ASF/sam/utils/cmsis/same70
 atexit                                            d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-atexit.o)
                                                   d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
                                                   d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+back_song                                         src/main.o
 board_init                                        src/ASF/sam/boards/same70_xplained/init.o
                                                   src/main.o
+contador                                          src/main.o
 cpu_irq_enter_critical                            src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
 cpu_irq_leave_critical                            src/ASF/common/utils/interrupt/interrupt_sam_nvic.o
 exception_table                                   src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
@@ -7659,6 +7560,9 @@ gfx_mono_ssd1306_put_byte                         src/oled/gfx_mono_ug_2832hsweg
 gfx_mono_ssd1306_put_framebuffer                  src/oled/gfx_mono_ug_2832hsweg04.o
 gfx_mono_ssd1306_put_page                         src/oled/gfx_mono_ug_2832hsweg04.o
                                                   src/oled/gfx_mono_generic.o
+got_melody                                        src/main.o
+got_tempo                                         src/main.o
+got_title                                         src/main.o
 hardware_init_hook                                d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
 init                                              src/main.o
 itoa                                              d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-itoa.o)
@@ -7668,15 +7572,23 @@ main                                              src/main.o
                                                   src/ASF/sam/utils/cmsis/same70/source/templates/gcc/startup_same70.o
                                                   d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
 malloc                                            d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-__atexit.o)
+mario_melody                                      src/main.o
+mario_tempo                                       src/main.o
+mario_title                                       src/main.o
 melody                                            src/main.o
 memset                                            d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
                                                   d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+mii_melody                                        src/main.o
+mii_tempo                                         src/main.o
+mii_title                                         src/main.o
 mpu_cal_mpu_region_size                           src/ASF/sam/drivers/mpu/mpu.o
 mpu_disable_region                                src/ASF/sam/drivers/mpu/mpu.o
 mpu_enable                                        src/ASF/sam/drivers/mpu/mpu.o
 mpu_set_region                                    src/ASF/sam/drivers/mpu/mpu.o
 mpu_set_region_num                                src/ASF/sam/drivers/mpu/mpu.o
 mpu_update_regions                                src/ASF/sam/drivers/mpu/mpu.o
+next_song                                         src/main.o
+notes                                             src/main.o
 pio_capture_disable                               src/ASF/sam/drivers/pio/pio.o
 pio_capture_disable_interrupt                     src/ASF/sam/drivers/pio/pio.o
 pio_capture_enable                                src/ASF/sam/drivers/pio/pio.o
@@ -7875,6 +7787,8 @@ ssd1306_write_command                             src/oled/ssd1306.o
                                                   src/oled/gfx_mono_ug_2832hsweg04.o
 ssd1306_write_data                                src/oled/ssd1306.o
                                                   src/oled/gfx_mono_ug_2832hsweg04.o
+strcpy                                            d:/microship studio 7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
+                                                  src/main.o
 sysclk_disable_usb                                src/ASF/common/services/clock/same70/sysclk.o
 sysclk_enable_usb                                 src/ASF/common/services/clock/same70/sysclk.o
 sysclk_init                                       src/ASF/common/services/clock/same70/sysclk.o
