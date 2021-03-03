@@ -84,12 +84,12 @@
 #define BUZZ_PIO_IDX		30
 #define BUZZ_PIO_IDX_MASK (1 << BUZZ_PIO_IDX)
 
-
+#define CONT_MAX	2
 /************************************************************************/
 /* constants                                                            */
 /************************************************************************/
 
-
+int contador = 1;
 int tempo = 85;
 int melody[] = {
 	NOTE_FS4,8, REST,8, NOTE_A4,8, NOTE_CS5,8, REST,8,NOTE_A4,8, REST,8, NOTE_FS4,8, //1
@@ -204,8 +204,19 @@ void tone(int freq, int time) {
 	}
 }
 
-void play() {
+void back_song(int cont, disc disc1) {
+	if (contador<=0) {
+		contador = CONT_MAX;		
+	} else {
+		contador -= 1;
+	}
+	disc1.curr_song = disc1.songs[contador];
+}
+void play(song curr_song) {
 	// código retirado do repositório onde se encontram as músicas
+	
+	int *melody = &curr_song.melody;
+	int tempo = curr_song.tempo;
 	int notes = sizeof(melody) / sizeof(melody[0]) / 2;
 	int wholenote = (60000 * 4) / tempo;
 	int divider = 0, noteDuration = 0;
@@ -288,7 +299,6 @@ void play() {
 			board_init();
 			sysclk_init();
 			delay_init();
-			
 			gfx_mono_ssd1306_init();
 			gfx_mono_draw_string("APS 1", 50,16, &sysfont);
 			delay_ms(1000);
@@ -311,9 +321,10 @@ void play() {
 			disc1.songs[0]= got;
 			disc1.songs[1]= mii;
 			disc1.songs[2]= mario;
-			disc1.curr_song = mii;
+			disc1.curr_song = disc1.songs[contador];
 			
 			while (1){
+				gfx_mono_draw_string(disc1.curr_song.title, 50,16, &sysfont);
 				pio_set(PIOC, LED_PIO_IDX_MASK);
 				pio_set(PIOA, LED1_PIO_IDX_MASK);
 				pio_set(PIOC, LED2_PIO_IDX_MASK);
@@ -324,6 +335,7 @@ void play() {
 				
 				//-------------------------------------------------------------------------------
 				if (!pio_get(PIOD, PIO_INPUT, BUT1_PIO_IDX_MASK)){
+					back_song(contador,disc1);
 					gfx_mono_draw_string("BACK    ", 50,16, &sysfont);
 					delay_ms(1000);
 					gfx_mono_draw_string("MUSIC   ", 50,16, &sysfont);
@@ -339,7 +351,7 @@ void play() {
 					gfx_mono_draw_string("MUSIC   ", 50,16, &sysfont);
 					pio_clear(PIOC, LED2_PIO_IDX_MASK);
 					delay_ms(1000);
-					play();
+					play(disc1.curr_song);
 				}
 				
 				//-------------------------------------------------------------------------------
